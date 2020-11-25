@@ -54,5 +54,3 @@ if __name__ == "__main__":
         a, b = int(a), int(b)
         connectionList.append([a, b])
     solution(N, M, V, connectionList)
-
-
