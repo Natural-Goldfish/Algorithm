@@ -68,9 +68,7 @@ def BFS(startPoint, array, visited):
 if __name__ == "__main__":
 
     TestCase = int(input())
-
     ArrayList = []
-
     for i in range(TestCase):
         ArrayList.append([])
     
