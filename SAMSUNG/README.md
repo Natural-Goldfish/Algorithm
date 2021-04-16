@@ -6,7 +6,7 @@
 3. 오름차순 정렬
 4. 진법 변환
 
-### Warning
+### Plus
 ---
 - **Python deque는 sequence type으로 slice가 안되는 것에 주의할 것.**
 ```
@@ -20,4 +20,21 @@ TypeError: sequence index must be integer, not 'slice'
 19
 >>> int('1F7', 16)
 503
+```
+
+# 5656. [모의 SW 역량테스트] 벽돌 깨기
+### Solution
+---
+1. 모든 케이스 검사(중복 순열)
+2. 각 케이스 마다, BFS 수행
+3. 벽돌 깨지고 나면, 그래프 갱신(해당 부분 수정으로 시간 통과)
+4. 가장 많이 벽돌을 깬 케이스를 찾기 위해서, BFS수행 할때 count 측정
+
+### Plus
+---
+- **input() 문자열 처리시, rstrip()으로 개행 문자 없앨 것**
+- **중복 순열 사용 방법**
+```
+from itertools import product
+product([1, 2, 3], repeat=n)    # n개 반복 허용
 ```
