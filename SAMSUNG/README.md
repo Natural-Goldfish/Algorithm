@@ -33,6 +33,9 @@ TypeError: sequence index must be integer, not 'slice'
 ### Plus
 ---
 - **input() 문자열 처리시, rstrip()으로 개행 문자 없앨 것**
+```
+>>> input().rstrip().split(' ')
+```
 - **중복 순열 사용 방법**
 ```
 from itertools import product
