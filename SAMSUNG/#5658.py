@@ -14,5 +14,6 @@ for test_case in range(1, T+1):
         add_unique(numbers, unique_num, jump)
         numbers = [numbers.pop()] + numbers
     find_number = sorted(list(unique_num), reverse=True)[K-1]
+    print(find_number)
     answer = int(find_number, 16)
     print(answer)
