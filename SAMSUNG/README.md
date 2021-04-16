@@ -1,4 +1,9 @@
 # 5658. [모의 SW 역량테스트] 보물상자 비밀번호
+### Solution
+---
+
+### Warning
+---
 - **Python deque는 sequence type으로 slice가 안되는 것에 주의할 것.**
 ```
 >>> temp = deque([1, 2, 3, 4])
