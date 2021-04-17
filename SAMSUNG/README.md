@@ -5,7 +5,8 @@
 2. N//4개씩 잘라서 set에 저장(Unique)
 3. 오름차순 정렬
 4. 진법 변환   
-   
+</br>
+
 ### Plus
 ---
 - **Python deque는 sequence type으로 slice가 안되는 것에 주의할 것.**
@@ -21,7 +22,8 @@ TypeError: sequence index must be integer, not 'slice'
 >>> int('1F7', 16)
 503
 ```   
-   
+</br></br>
+
 # 5656. [모의 SW 역량테스트] 벽돌 깨기
 ### Solution
 ---
@@ -29,6 +31,7 @@ TypeError: sequence index must be integer, not 'slice'
 2. 각 케이스 마다, BFS 수행
 3. 벽돌 깨지고 나면, 그래프 갱신(해당 부분 수정으로 시간 통과)
 4. 가장 많이 벽돌을 깬 케이스를 찾기 위해서, BFS수행 할때 count 측정   
+</br>
 
 ### Plus
 ---
@@ -41,14 +44,16 @@ TypeError: sequence index must be integer, not 'slice'
 from itertools import product
 product([1, 2, 3], repeat=n)    # n개 반복 허용
 ```   
-   
+</br></br>
+
 # 14502. 연구소
 ### Solution
 ---
 1. 벽이 세워질 수 있는 모든 케이스 검사(조합)
 2. 각 케이스 마다, BFS 수행
 3. 케이스 별로 바이러스가 침식 되지 않은 지역의 개수를 세고, MAX비교로 갱신   
-   
+</br></br>
+
 # 19236. 청소년 상어
 ### Solution
 ---
