@@ -41,3 +41,11 @@ TypeError: sequence index must be integer, not 'slice'
 from itertools import product
 product([1, 2, 3], repeat=n)    # n개 반복 허용
 ```
+
+# 14502. 연구소
+### Solution
+---
+1. 벽이 세워질 수 있는 모든 케이스 검사(조합)
+2. 각 케이스 마다, BFS 수행
+3. 케이스 별로 바이러스가 침식 되지 않은 지역의 개수를 세고, MAX비교로 갱신
+
