@@ -1,4 +1,4 @@
-# 5658. [모의 SW 역량테스트] 보물상자 비밀번호 | SW Expert Academy
+# 5658. 보물상자 비밀번호 | SW Expert Academy
 ### Solution
 ---
 1. N//4번 회전하면 동일한 숫자가 구성되므로, N//4-1만큼 rotation.
@@ -24,7 +24,7 @@ TypeError: sequence index must be integer, not 'slice'
 ```   
 </br></br>
 
-# 5656. [모의 SW 역량테스트] 벽돌 깨기 | SW Expert Academy
+# 5656. 벽돌 깨기 | SW Expert Academy
 ### Solution
 ---
 1. 모든 케이스 검사(중복 순열)

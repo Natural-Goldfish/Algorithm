@@ -22,7 +22,6 @@ def converter(direction):
     else :
         CUR_DIRECTION = 1
 
-
 def search(cur_coord, arr): # return next coord
     global MAX_ROTATE_NUM, CUR_DIRECTION
     y, x = cur_coord
@@ -73,19 +72,4 @@ if __name__ == "__main__":
             elif flag == -1 :
                 not_finish = False
                 break
-
     print(count)
-
-    """
-    1 1 1 1 1 1 1 1 1 1
-    1 0 0 0 0 0 0 0 0 1
-    1 0 0 0 1 1 1 1 0 1
-    1 0 0 1 1 0 0 0 0 1
-    1 0 1 1 -6 -5 0 0 0 1
-    1 0 0 -8 -7 -4 -3 0 0 1
-    1 0 -10 -9 -1 -2 0 1 -30 1
-    1 -17 -11 -12 -15 -16 1 1 -29 1
-    1 -18 -19 -22 -13 -14 1 1 -28 1
-    1 0 -20 -21 -23 -24 -25 -26 -27 1
-    1 1 1 1 1 1 1 1 1 1
-    """
