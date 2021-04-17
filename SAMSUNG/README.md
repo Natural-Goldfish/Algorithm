@@ -1,4 +1,4 @@
-# 5658. [모의 SW 역량테스트] 보물상자 비밀번호
+# 5658. [모의 SW 역량테스트] 보물상자 비밀번호 | SW Expert Academy
 ### Solution
 ---
 1. N//4번 회전하면 동일한 숫자가 구성되므로, N//4-1만큼 rotation.
@@ -24,7 +24,7 @@ TypeError: sequence index must be integer, not 'slice'
 ```   
 </br></br>
 
-# 5656. [모의 SW 역량테스트] 벽돌 깨기
+# 5656. [모의 SW 역량테스트] 벽돌 깨기 | SW Expert Academy
 ### Solution
 ---
 1. 모든 케이스 검사(중복 순열)
@@ -46,7 +46,7 @@ product([1, 2, 3], repeat=n)    # n개 반복 허용
 ```   
 </br></br>
 
-# 14502. 연구소
+# 14502. 연구소 | Baekjoon
 ### Solution
 ---
 1. 벽이 세워질 수 있는 모든 케이스 검사(조합)
@@ -54,7 +54,15 @@ product([1, 2, 3], repeat=n)    # n개 반복 허용
 3. 케이스 별로 바이러스가 침식 되지 않은 지역의 개수를 세고, MAX비교로 갱신   
 </br></br>
 
-# 19236. 청소년 상어
+# 19236. 청소년 상어 | Baekjoon
 ### Solution
 ---
 1. 추후 기입
+</br></br>
+
+# 14503. 로봇 청소기 | Baekjoon
+### Solution
+---
+1. 탐색 방향과 주어지는 방향이 일치하지 않으므로 주의할 것.
+2. 주어진 조건대로 단순 코딩 (but, 문제 조건이 명확하지 않다고 느낌)
+
