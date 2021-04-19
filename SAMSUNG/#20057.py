@@ -138,7 +138,7 @@ def tornado(start_coord):
             arr[new_y][new_x] += arr[target_y][target_x] - moved_sand - gone_sand
         else :
             gone_sand += arr[target_y][target_x] - moved_sand - gone_sand
-            
+
         SAND += gone_sand
         arr[target_y][target_x] = 0
 
@@ -166,18 +166,6 @@ if __name__ == "__main__":
     for y in range(N):
         arr.append(list(map(int, sys.stdin.readline().rstrip().split(' '))))
     
-    before = 0
-    for y in range(N):
-        before += sum(arr[y])
-
-    
     tornado(start_coord)
-
-
-    answer=0
-    for y in range(N):
-        answer+=sum(arr[y])
-
-    print(before-answer)
     print(SAND)
 
