@@ -16,7 +16,6 @@ def spread(arr):
     for y in range(len(arr)):
         for x in range(len(arr[y])):
             if (y, x) in machine_coord : continue
-            if arr[y][x] == 0 : continue
             count = 0
             # UP
             dy, dx = -1, 0
