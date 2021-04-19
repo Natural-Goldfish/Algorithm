@@ -150,3 +150,16 @@ product([1, 2, 3], repeat=n)    # n개 반복 허용
 2. 최악
 </br></br>
 
+# 20058. 마법사 상어와 파이어스톰 | Baekjoon
+### Solution
+---
+1. Rotation(90)
+2. 얼음 감소
+3. BFS
+</br>
+
+### Plus
+---
+- **시계 방향 90도 회전**
+new_y, new_x = x, MAX_X_COORD - y
+
