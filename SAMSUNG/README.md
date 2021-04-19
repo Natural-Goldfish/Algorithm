@@ -160,6 +160,8 @@ product([1, 2, 3], repeat=n)    # n개 반복 허용
 
 ### Plus
 ---
-- **시계 방향 90도 회전**
+- **시계 방향 90도 회전**  
+```
 new_y, new_x = x, MAX_X_COORD - y
+```
 
