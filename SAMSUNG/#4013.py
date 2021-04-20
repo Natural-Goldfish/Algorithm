@@ -81,6 +81,6 @@ if __name__ == "__main__":
         for m_number, temp_list in m_dict.items():
             if temp_list[0] == 1 :
                 point += 2**(m_number-1)
-        print(point)
+        print("#{} {}".format(test_case, point))
 
         
