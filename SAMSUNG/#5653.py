@@ -117,7 +117,7 @@ coord_dict = {}
 
 if __name__ == "__main__":
     T = int(input().rstrip())
-    for test_case in range(1, T):
+    for test_case in range(1, T+1):
         H, W, K = map(int, input().rstrip().split(' '))
         arr = [[(-2, -2, -2) for _ in range(W)] for _ in range(H)]
         for y in range(H):
