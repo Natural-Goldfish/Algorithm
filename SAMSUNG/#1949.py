@@ -15,11 +15,11 @@ def process(arr, origin_max_coord):
                 carr = copy.deepcopy(arr)
                 carr[y][x] = carr[y][x] - k
 
-                cur_highest_coord = origin_max_coord - set([(y, x)])
-                if not cur_highest_coord :
-                    cur_highest_coord = find_highest(carr)
+                # cur_highest_coord = origin_max_coord - set([(y, x)])
+                # if not cur_highest_coord :
+                #     cur_highest_coord = find_highest(carr)
                 
-                for cur_coord in cur_highest_coord :
+                for cur_coord in origin_max_coord :
                     visited = set()
                     dfs(cur_coord, 0)
 
