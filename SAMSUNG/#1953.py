@@ -62,4 +62,4 @@ if __name__ == "__main__":
                     arr[y][x] = DIRECTION[temp_list[x]]
         
         
-        print(BFS((init_y, init_x), L))
+        print("#{} {}".format(test_case, BFS((init_y, init_x), L)))
