@@ -76,3 +76,30 @@ False
 2. 출입 정보 리스트에 저장
 3. 출력
 </br></br>
+
+# [1차] 캐시 | PROGRAMMERS
+### Solution
+---
+1. LRU(Least Recently Used)를 위해 deque사용
+</br>
+
+### Plus
+---
+- **deque element 삭제**
+</br>
+
+1. Element 기반 삭제
+2. Index 기반 삭제
+</br>
+
+```
+>>> from collection import deque
+>>> a = deque([1, 2, 3, 4])
+>>> a.remove(1)
+>>> a
+deque([2, 3, 4])
+>>> del a[2]
+>>> a
+deque([2, 3])
+```
+</br></br>
