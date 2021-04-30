@@ -31,9 +31,11 @@
 ### Plus
 ---
 - **정규식 표현 sub**
-</br>
+</br>  
+
 > re.sub({target pattern}, {replaced string}, {target string})
 </br>
+
 ```
 >>> import re
 >>> string = "AbcdE)_v"
