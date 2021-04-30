@@ -85,25 +85,25 @@ False
 
 ### Plus
 ---
-- **deque element 삭제**
-</br>
+  - **deque 삭제**
+    </br>
 
-1. Element 기반 삭제
-> deque.remove(INSTANCE, ELEMENT)
-</br>
+    1. Element 기반 삭제
+        > deque.remove(INSTANCE, ELEMENT)
+    </br>
 
-2. Index 기반 삭제
-> del INSTANCE[INDEX]
-</br>
+    2. Index 기반 삭제
+        > del INSTANCE[INDEX]
+    </br>
 
-```
->>> from collection import deque
->>> a = deque([1, 2, 3, 4])
->>> a.remove(1)
->>> a
-deque([2, 3, 4])
->>> del a[2]
->>> a
-deque([2, 3])
-```
+    ```
+    >>> from collection import deque
+    >>> a = deque([1, 2, 3, 4])
+    >>> a.remove(1)
+    >>> a
+    deque([2, 3, 4])
+    >>> del a[2]
+    >>> a
+    deque([2, 3])
+    ```
 </br></br>
