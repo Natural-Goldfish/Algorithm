@@ -30,7 +30,7 @@
 
 ### Plus
 ---
-- **정규식 표현 sub**
+- **정규식 표현 sub**  
 re.sub({target pattern}, {replaced string}, {target string})
 ```
 >>> import re
