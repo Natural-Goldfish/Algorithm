@@ -22,3 +22,21 @@
 1. 조건에 따라 구현
 </br></br>
 
+# 뉴스 클러스터링 | PROGRAMMERS
+### Solution
+---
+1. 교집합은 작은 수, 합집합은 큰 수 선택
+</br>
+
+### Plus
+---
+- **정규식 표현 sub**
+re.sub({target pattern}, {replaced string}, {target string})
+```
+>>> import re
+>>> string = "AbcdE)_v"
+>>> new_string = re.sub(r'[^a-z]', "", string)
+>>> print(new_string)
+bcdv
+```   
+
