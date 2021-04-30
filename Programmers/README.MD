@@ -54,19 +54,19 @@ bcdv
 ### Plus
 ---
 - **str.startswith()**
-</br>
+    </br>
 
-```
->>> string = 'abcde'
->>> string.startswith('ab')
-True
->>> string.startswith('a')
-True
->>> str.startswith(string, 'a')
-True
->>> string.startswith('d')
-False
-```
+    ```
+    >>> string = 'abcde'
+    >>> string.startswith('ab')
+    True
+    >>> string.startswith('a')
+    True
+    >>> str.startswith(string, 'a')
+    True
+    >>> string.startswith('d')
+    False
+    ```
 </br></br>
 
 # 오픈 채팅방 | PROGRAMMERS
@@ -85,7 +85,7 @@ False
 
 ### Plus
 ---
-  - **deque 삭제**
+- **deque 삭제**
     </br>
 
     1. Element 기반 삭제
