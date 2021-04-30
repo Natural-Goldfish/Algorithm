@@ -89,7 +89,11 @@ False
 </br>
 
 1. Element 기반 삭제
+> deque.remove(INSTANCE, ELEMENT)
+</br>
+
 2. Index 기반 삭제
+> del INSTANCE[INDEX]
 </br>
 
 ```
