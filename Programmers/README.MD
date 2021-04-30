@@ -43,4 +43,28 @@
 >>> print(new_string)
 bcdv
 ```   
+</br></br>
 
+# 영어 끝말잇기 | PROGRAMMERS
+### Solution
+---
+1. 다음 단어는 이전 단어의 끝 문자로 시작해야 한다.
+</br>
+
+### Plus
+---
+- **str.startswith()**
+</br>
+
+```
+>>> string = 'abcde'
+>>> string.startswith('ab')
+True
+>>> string.startswith('a')
+True
+>>> str.startswith(string, 'a')
+True
+>>> string.startswith('d')
+False
+```
+</br></br>
