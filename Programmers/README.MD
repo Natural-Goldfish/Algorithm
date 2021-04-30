@@ -30,19 +30,20 @@
 
 ### Plus
 ---
-- **정규식 표현 sub**
-</br>  
+- **정규식**
+    </br>  
 
-> re.sub({target pattern}, {replaced string}, {target string})
-</br>
+    1. sub(문자열 대체)
+        > re.sub({target pattern}, {replaced string}, {target string})
+    </br>
 
-```
->>> import re
->>> string = "AbcdE)_v"
->>> new_string = re.sub(r'[^a-z]', "", string)
->>> print(new_string)
-bcdv
-```   
+    ```
+    >>> import re
+    >>> string = "AbcdE)_v"
+    >>> new_string = re.sub(r'[^a-z]', "", string)
+    >>> print(new_string)
+    bcdv
+    ```   
 </br></br>
 
 # 영어 끝말잇기 | PROGRAMMERS
