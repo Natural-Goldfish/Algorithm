@@ -68,3 +68,11 @@ True
 False
 ```
 </br></br>
+
+# 오픈 채팅방 | PROGRAMMERS
+### Solution
+---
+1. user id의 변화 파악을 위해 dict에서 관리
+2. 출입 정보 리스트에 저장
+3. 출력
+</br></br>
