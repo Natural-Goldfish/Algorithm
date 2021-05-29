@@ -33,6 +33,7 @@
     </br>
     
   - # Math
-    - ## Greatest Common Divisor and Least Common Multiple(GCD and LCM, 최대공약수와 최소공배수)
+    - ## Greatest Common Divisor(GCD, 최대공약수)
+    - ## Least Common Multiple(LCM, 최소공배수)
     - ## Prime Number(소수)
       - ### Sieve of Eratosthenes(에라토스테네스의 체)
