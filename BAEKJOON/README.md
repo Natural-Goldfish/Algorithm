@@ -1,3 +1,30 @@
+# 7569 [토마토](https://www.acmicpc.net/problem/7569)
+## Solution
+
+2차원 배열이 아닌 3차원 배열을 이용해야 했으며, c층의 익은 토마토를 기준으로 c-1, c+1층의 동일한 w, h를 가지는 토마토만 영향을 받는것에 주의해야합니다. 영향을 받는 토마토를 탐색하기 위해 _BFS(너비 우선 탐색)_ 을 사용했습니다.
+
+</br></br>
+
+---
+
+# 1916 [최소비용 구하기](https://www.acmicpc.net/problem/1916)
+## Solution
+
+모두 양의 가중치를 가지고 있는 그래프에서, 임의의 정점 P<sub>i</sub>에서 다른 정점 P<sub>j</sub>까지의 최소 비용을 구하기 위해 _dijkstra(다익스트라)_ 를 사용했습니다. 
+
+</br></br>
+
+---
+
+# 11403 [경로 찾기](https://www.acmicpc.net/problem/11403)
+## Solution
+
+가중치가 없는 방향 그래프에서 정점 P<sub>i</sub>에서 다른 정점 P<sub>j</sub>로 가는 경로가 있는지 검사하기 위해, _BFS(너비 우선 탐색)_ 을 이용하여 문제를 해결했습니다.
+
+</br></br>
+
+---
+
 # 2357 [최솟값과 최댓값](https://www.acmicpc.net/problem/2357)
 ## Solution
 
@@ -20,7 +47,7 @@
 # 2085 [나무자르기](https://www.acmicpc.net/problem/2805)
 ## Solution
 
-자르는 높이의 범위를 반씩 줄여나가는 이분 탐색을 사용합니다.
+자르는 높이의 범위를 반씩 줄여나가는 _Binary search(이분 탐색)_ 을 사용했습니다.
 
 </br></br>
 
@@ -38,7 +65,7 @@
 # 1927 [최소 힙](https://www.acmicpc.net/problem/1927)
 ## Solution
 
-Python heapq module을 사용하면 단순한 구현 문제로 해결 할 수 있습니다.
+Python _heapq module_ 을 사용하여 단순한 구현 문제로 해결했습니다.
 
 </br></br>
 
@@ -47,7 +74,7 @@ Python heapq module을 사용하면 단순한 구현 문제로 해결 할 수 �
 # 1920 [수 찾기](https://www.acmicpc.net/problem/1920)
 ## Solution
 
-이진 탐색 트리를 사용합니다.
+_Binary search tree(이진 탐색 트리)_ 를 사용했습니다.
 
 </br></br>
 
