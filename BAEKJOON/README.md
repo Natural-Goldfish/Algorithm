@@ -1,7 +1,7 @@
 # 11286 [절대값 힙](https://www.acmicpc.net/problem/11286)
 ## Solution
 
-Python _heapq module_ 을 사용하면 쉽게 해결할 수 있습니다. Python _heapq module_ 에 (item<sub>0</sub>, item<sub>1</sub>, .. , item<sub>n-1</sub>, item<sub>n</sub>) 을 push했을 때, item<sub>0</sub>를 비교 대상으로 설정합니다.
+Python _heapq module_ 을 사용하면 쉽게 해결할 수 있습니다. Python _heapq module_ 에 _tuple(item<sub>0</sub>, item<sub>1</sub>, ... , item<sub>n-1</sub>, item<sub>n</sub>)_ 을 push했을 때, item<sub>0</sub>를 비교 대상으로 설정합니다.
 
 
 # 11279 [최대 힙](https://www.acmicpc.net/problem/11279)
