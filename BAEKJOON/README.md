@@ -1,3 +1,12 @@
+# 1931 [회의실](https://www.acmicpc.net/problem/1931)
+## Solution
+
+가장 빨리 끝나는 회의부터 정렬하되, 가장 빨리 시작하는 회의시간도 고려하여 정렬한다.
+
+</br></br>
+
+---
+
 # 11399 [ATM](https://www.acmicpc.net/problem/11399)
 ## Solution
 

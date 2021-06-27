@@ -39,9 +39,9 @@ class SegmentTree:
             self.tree[index] = min(left_tree[0], right_tree[0]),max(left_tree[1], right_tree[1])
             return self.tree[index]
     
-N, M = map(int, str.rstrip(sys.stdin.readline(), '').split(' '))
-numbers = [int(str.rstrip(sys.stdin.readline(), '')) for _ in range(N)]
-range_list = [map(int, str.rstrip(sys.stdin.readline(), '').split(' ')) for _ in range(M)]
+N, M = map(int, str.rstrip(sys.stdin.readline()).split(' '))
+numbers = [int(str.rstrip(sys.stdin.readline())) for _ in range(N)]
+range_list = [map(int, str.rstrip(sys.stdin.readline()).split(' ')) for _ in range(M)]
 st = SegmentTree(numbers)
 for ab in range_list:
     a, b = ab

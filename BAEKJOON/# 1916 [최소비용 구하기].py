@@ -1,12 +1,12 @@
 import sys, heapq
 
-N = int(str.rstrip(sys.stdin.readline(), ''))
-M = int(str.rstrip(sys.stdin.readline(), ''))
+N = int(str.rstrip(sys.stdin.readline()))
+M = int(str.rstrip(sys.stdin.readline()))
 graph = [[] for _ in range(N)]
 for m in range(M):
-    i, j, weight = map(int, str.rstrip(sys.stdin.readline(), '').split(' '))
+    i, j, weight = map(int, str.rstrip(sys.stdin.readline()).split(' '))
     graph[i-1].append((j-1, weight))
-src, dst = map(int, str.rstrip(sys.stdin.readline(), '').split(' '))
+src, dst = map(int, str.rstrip(sys.stdin.readline()).split(' '))
 distance = [sys.maxsize for _ in range(N)]
 distance[src-1] = 0
 def djikstra(src, distance, graph):

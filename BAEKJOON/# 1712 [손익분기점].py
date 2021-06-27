@@ -1,5 +1,5 @@
 import sys
-cost1, cost2, cost3 = map(int, str.rstrip(sys.stdin.readline(), '').split(' '))
+cost1, cost2, cost3 = map(int, str.rstrip(sys.stdin.readline()).split(' '))
 if cost3 == cost2 :
     print(-1)
 else :

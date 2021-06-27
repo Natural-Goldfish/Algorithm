@@ -50,7 +50,7 @@ def answer(arr):
                 if arr[c][h][w] == 0 :
                     return -1
 
-W, H, C = map(int, str.rstrip(sys.stdin.readline(), '').split(' '))
+W, H, C = map(int, str.rstrip(sys.stdin.readline()).split(' '))
 arr = []
 tasty_tomatos = deque([])
 day = 0
@@ -58,7 +58,7 @@ day = 0
 for c in range(C):
     c_arr = []
     for h in range(H):
-        temp = list(map(int, str.rstrip(sys.stdin.readline(), '').split(' ')))
+        temp = list(map(int, str.rstrip(sys.stdin.readline()).split(' ')))
         c_arr.append(temp)
         for index, item in enumerate(temp):
             if item == 1 :

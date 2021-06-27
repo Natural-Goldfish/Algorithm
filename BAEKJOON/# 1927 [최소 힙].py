@@ -1,8 +1,8 @@
 import sys, heapq
 
-N = int(str.rstrip(sys.stdin.readline(), ''))
+N = int(str.rstrip(sys.stdin.readline()))
 heap = []
-command = list([int(str.rstrip(sys.stdin.readline(), '')) for _ in range(N)])
+command = list([int(str.rstrip(sys.stdin.readline())) for _ in range(N)])
 for index in range(N):
     if command[index] == 0 and heap : 
         print(heapq.heappop(heap))

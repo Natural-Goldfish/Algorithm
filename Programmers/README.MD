@@ -1,3 +1,13 @@
+# [약수의 개수와 덧셈](https://programmers.co.kr/learn/courses/30/lessons/77884)
+## Solution
+
+어떤 수 A의, A를 제외한 가장 큰 약수는 A의 절반보다 작거나 같습니다.
+
+</br></br>
+
+---
+
+
 # 음양 더하기
 ## Solution
 

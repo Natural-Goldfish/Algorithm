@@ -1,7 +1,7 @@
 import sys
 
-N, M  = map(int, str.rstrip(sys.stdin.readline(), '').split(' '))
-tree_list = list(map(int, str.rstrip(sys.stdin.readline(), '').split(' ')))
+N, M  = map(int, str.rstrip(sys.stdin.readline()).split(' '))
+tree_list = list(map(int, str.rstrip(sys.stdin.readline()).split(' ')))
 height_min, height_max = 0, 1000000000
 last = False
 while True :
