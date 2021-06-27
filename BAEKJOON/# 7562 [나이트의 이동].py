@@ -32,5 +32,6 @@ for test_case in range(1, TEST_CASE+1):
         if temp_queue :
             time += 1
             queue = deque(temp_queue)
+            
 for answer in answer_list:
     print(answer)
