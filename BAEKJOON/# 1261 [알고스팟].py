@@ -38,9 +38,3 @@ def dijkstra(connect_dict):
 costs = dijkstra(connect_dict)
 
 print(costs[M-1][N-1])
-
-    
-
-
-                
-                
