@@ -135,7 +135,6 @@ answer_list = []
 for test_case in range(1, TEST_CASE+1):
     n = int(str.strip(sys.stdin.readline()))
     order_list = str.strip(sys.stdin.readline()).split(' ')
-    print(len(order_list))
     cube = Cube()
     for order in order_list:
         cube.rotate(order[0], order[1])
